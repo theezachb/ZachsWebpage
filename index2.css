@@ -1,0 +1,86 @@
+
+  @viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+  }
+  /* ==================================================
+    Mobile Styles: 0px to 480px
+   ==================================================
+*/
+  @media screen and (max-width:480px) {
+    /* CSS for screens that are 480 pixels or less will be put in this section */
+
+  }
+  /* ==================================================
+    Tablet Styles: 481px and greater
+   ==================================================
+*/
+  @media screen and (min-width:481px) {
+    /* CSS for screens that are at least 481 pixels wide */
+
+  }
+  /* ==================================================
+    Desktop Styles: 769px or greater
+   ================================================== 
+*/
+@media only screen and (min-width: 769px) {
+    /* CSS for screens 769px or greater. */
+
+}
+  div.container {
+    font-family: 'Lobster', cursive; 
+    font-size: 100px;
+    color: #545454;
+    text-align: center;
+  }
+  h6, footer {
+    font-family: 'Bungee', cursive;
+    text-align: center;
+    color: #545454;
+  }
+  section h2 {
+    font-family: 'Lobster', cursive;
+    color: #545454;
+    text-align: center;
+  }
+  
+  hr.solid {
+    border-top: 3px solid #bbb;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  
+  h3{
+    font-family: 'Bungee', cursive;
+    text-align: center;
+    color: #CBCBCB;
+  }
+
+  h4 {
+    font-family: 'Bungee', cursive;
+    text-align: center;
+    color: #545454;
+    padding-top: 25%;
+  }
+  img {
+    width: 320px;
+    height: 214px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+div.flex-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+div.project1, div.project2, div.project3, div.project4, div.project5 {
+    width: 320px;
+    height: 214px;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+    margin: 1.66%; 
+  }
